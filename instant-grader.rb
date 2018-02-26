@@ -6,6 +6,6 @@ class InstantGrader < Formula
 
   def install
     system "make", "build"
-    bin.install_symlink libexec/"build/instant-grader"
+    bin.install_symlink libexec/build/"instant-grader"
   end
 end
