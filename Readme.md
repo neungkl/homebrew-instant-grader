@@ -16,5 +16,4 @@ brew install instant-grader
 
 For other user:
 
-Please follow instruction on [Instant Grader]
-(https://github.com/neungkl/instant-grader)
+Please follow instruction on [Instant Grader](https://github.com/neungkl/instant-grader)
