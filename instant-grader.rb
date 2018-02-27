@@ -1,8 +1,8 @@
 class InstantGrader < Formula
   desc "A tool for grading your code and test subject in single file. Compiling, splitting, and testing in single command."
   homepage "https://github.com/neungkl/instant-grader/"
-  url "https://github.com/neungkl/instant-grader/archive/v1.0.2.tar.gz"
-  sha256 "e318997ee93dff51ada7ee5e41d869b4dc8e070dc2cbef105a835159108b1f3f"
+  url "https://github.com/neungkl/instant-grader/archive/v1.0.3.tar.gz"
+  sha256 "640637b93259d36f3e435066ad88286e48f4728230be71cc2b4a5b3bdafee676"
 
   def install
     system "make build"
@@ -11,5 +11,5 @@ class InstantGrader < Formula
 
   test do
     system "make test"
-  end
+  en
 end
