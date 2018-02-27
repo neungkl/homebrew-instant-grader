@@ -11,5 +11,5 @@ class InstantGrader < Formula
 
   test do
     system "make test"
-  en
+  end
 end
